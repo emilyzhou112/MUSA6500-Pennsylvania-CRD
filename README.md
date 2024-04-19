@@ -1,6 +1,6 @@
 # Spatial Estimation of Chronic Respiratory Disease Based on Geospatial Learning Procedures - An Approach Using Earth-Engine-Based Remote Sensing Data and Air Quality Variables in the State of Pennsylvania
 
-This study is a based on an original paper of 
+This study is based on an original paper from:
 
 >  Alvarez-Mendoza, C. I., Teodoro, A., Freitas, A., & Fonseca, J. (2020). Spatial estimation of chronic respiratory diseases based on machine learning procedures—An approach using remote sensing data and environmental variables in quito, Ecuador. Applied Geography, 123, 102273.[https://doi.org/10.1016/j.apgeog.2020.102273](https://doi.org/10.1016/j.apgeog.2020.102273)
 
