@@ -11,6 +11,9 @@ In this final project, we investigate the effectiveness of several machine learn
 
 We have used remote sensing data, air quality data, and hospital discharge data in this project. Specifically, we retrieved Landsat 8 Level 2 Tier 1 data from Google Earth Engine with a spatial resolution of 30m. We obtained median satellite images by season from 2022, from which we computed the NDVI, EVI, SAVI, and Land Surface Temperature. The hospital discharge data is collected by the Pennsylvania Department of Health and available for the public to download from their webpage. The air quality data is collected through various pollutants monitoring sites across the state and distributed by the Pennsylvania Department of Environmental Protection. The variables we included are PM2.5, O3, Wind Speed, and Solar Radiation. To combine vector with raster data and to standardize the spatial unit of our analysis, we aggregated all variables into a fishnet grid of Pennsylvania using zonal statistics and area-weighted reaggregation.Subsequently, we performed dimensionality reduction on our predictor variables to avoid multicollinearity. We plan to fit four machine learning models: simple OLS regression, support vector regression, random forest regression, and multiple-layer perceptron. The root mean square error (RMSE) will be computed to compare across models.
 
+Workflow of Alvarez-Mendoza et al (2020):
+![workflow](documents/RS-research.jpeg)
+
 ### Contributors
 
 Emily Zhou, Shuai Wang 
